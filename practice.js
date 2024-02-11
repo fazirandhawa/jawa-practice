@@ -31,23 +31,13 @@
 
 //        ............................. GRADING OF STUDENT MARKS................
 
-let grade;
-let num=75;
 
-// let num=prompt("enter the marks of student ");
+let num=prompt("please enter your marks (0-100)");
+// console.log("marks are",num);
+    if(num>=80 && num<=100){
+        console.log("grade A");
+    }ifelse(num>=70 && num<=79)
+    {
+        console.log("grade B");
+    }
 
-
-// console.log(num,"is marks of student ");
-if(num>=80 && num<=100){
-    grade="A";
-} elseif(num>=70 && num<80) {
-    grade="B";
- } elseif(num>=60 && num<69) {
-    grade="C";
-} elseif(num>=50 && num<59) {
-    grade="D";
-} ifelse {
-    grade="F";
-}
-
-console.log("according to your score,your grade is ",grade);
