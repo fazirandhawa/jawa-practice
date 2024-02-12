@@ -68,16 +68,13 @@
 // (QUESTION NO 1) -----------take the no. from the user until user guess the right no.-------------------
 
 
-let game=4;
-let guess=prompt("please guess the no.")
-while (guess!=game){
-    if(guess!=game){
-        let guess= prompt("please try agian")
-    }
-    else{
-        console.log("you guess the right no.",b)
-    }
-}
+// let a=5;
+// let b=prompt("guess the number")
+// while(b!=a){
+//     b=prompt("please try agian")
+// }
+// console.log("tou enter the correct no.",b)
 
-// try it again
+
+
 
