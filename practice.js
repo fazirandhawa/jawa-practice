@@ -20,7 +20,7 @@
 // let a=prompt("enter a number");
 // console.log( a); 
 // if(a%5===0){
-//     console.log( a,"is multiple of 5")
+//     console.log( a,"is multiple of 5"
 // }else{
 //     console.log(a,"is not multiple of 5")
 // }
@@ -32,12 +32,52 @@
 //        ............................. GRADING OF STUDENT MARKS................
 
 
-let num=prompt("please enter your marks (0-100)");
-// console.log("marks are",num);
-    if(num>=80 && num<=100){
-        console.log("grade A");
-    }ifelse(num>=70 && num<=79)
-    {
-        console.log("grade B");
+// let marks=prompt("enter the marks")
+// console.log("the marks are",marks)
+// if(marks>=90){
+//     console.log("grade A");
+// }else if(marks>=80 && marks<90)
+// {
+//     console.log("grade B");
+// }else if(marks>=70 && marks<80)
+// {
+//     console.log("grade C");
+// }else if(marks>=60 && marks<70)
+// {
+//     console.log("grade D");
+// }
+// else{
+//     console.log("grade F");
+// }
+
+
+//  {(QUESTION NO 1)}            ........... <<<<<<<prtice test  3>>>>>>>>>>............
+
+
+// (QUESTION NO 1)                         print all the even number from 1 ---100
+
+
+// let n=100;
+// for(let i=1; i<=100;i++ ){
+//     if(i%2==0){
+//         console.log("the even no is",i )
+//     }
+    
+// }
+
+// (QUESTION NO 1) -----------take the no. from the user until user guess the right no.-------------------
+
+
+let game=4;
+let guess=prompt("please guess the no.")
+while (guess!=game){
+    if(guess!=game){
+        let guess= prompt("please try agian")
     }
+    else{
+        console.log("you guess the right no.",b)
+    }
+}
+
+// try it again
 
