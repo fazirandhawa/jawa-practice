@@ -51,21 +51,21 @@
 // }
 
 
+
 //  {(QUESTION NO 1)}            ........... <<<<<<<prtice test  3>>>>>>>>>>............
-
-
 // (QUESTION NO 1)                         print all the even number from 1 ---100
+
 
 
 // let n=100;
 // for(let i=1; i<=100;i++ ){
 //     if(i%2==0){
 //         console.log("the even no is",i )
-//     }
-    
+//     }    
 // }
 
-// (QUESTION NO 1) -----------take the no. from the user until user guess the right no.-------------------
+
+// (QUESTION NO 2) -----------take the no. from the user until user guess the right no.-------------------
 
 
 // let a=5;
@@ -73,8 +73,31 @@
 // while(b!=a){
 //     b=prompt("please try agian")
 // }
-// console.log("tou enter the correct no.",b)
+// console.log("you enter the correct no.",b)
+
+
+// (QUESTION NO 2)-------------------take username by prompt and add @ on start and end with string lenght------------
+
+
+// let INPUTname=prompt("enter your name")
+// let fulname="@"+ INPUTname+ INPUTname.Lenght;
+// console.log(fulname)
 
 
 
 
+//  {(QUESTION NO 1)}            ........... <<<<<<<prtice test  4>>>>>>>>>>............
+//  {(QUESTION NO 1)}  -----------array of marks and find the average of marks-----------------
+
+
+let sum=0
+let marks=[1,2,3,4,5]
+console.log(marks.lenght)
+
+// for(let value of marks){
+//     // console.log(value)
+//     sum += value
+// }
+// console.log(marks.lenght)
+// let avg = sum / marks.lenght
+// console.log(avg)
