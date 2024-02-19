@@ -90,14 +90,33 @@
 //  {(QUESTION NO 1)}  -----------array of marks and find the average of marks-----------------
 
 
-let sum=0
-let marks=[1,2,3,4,5]
-console.log(marks.lenght)
+// let sum=0
+// let marks=[1,2,3,4,5]
+// console.log(marks.lenght);
 
-// for(let value of marks){
-//     // console.log(value)
-//     sum += value
-// }
-// console.log(marks.lenght)
-// let avg = sum / marks.lenght
-// console.log(avg)
+
+// // for(let value of marks){
+// //     // console.log(value)
+// //     sum += value
+// // }
+// // // console.log(marks.lenght)
+// // let avg = sum / marks.lenght
+// // console.log(avg)
+
+                                                // not solved               
+   // -----------------------------------------------------------------------------------------------------------
+
+//  {(QUESTION NO 2)}            ........... <<<<<<<prtice test  4>>>>>>>>>>........................
+//  make array of five no. and make 10% discount and save the new values
+
+
+let prices=[100,200,300,400,500]
+// console.log(prices.length)
+for (let i=0; i<=prices.length ;i++){
+     let offer=prices[i]*10/100
+     console.log(offer)
+    // let updated=prices[i]-discount[i]
+    // console.log(updated)
+}
+//  let updated=prices[i]-discount[i]
+// console.log(updated)
