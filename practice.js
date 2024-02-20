@@ -111,11 +111,10 @@
 
 
 let prices=[100,200,300,400,500]
-// console.log(prices.length)
-// for (let i=0; i<=prices.length ;i++){
-//      let offer=prices[i]*10/100
-//      console.log(offer)
-//      prices[i]=prices[i]-offer  
+let i=0
+for(let value of prices){
+   let offer= vlaue/10
+   prices[i]=prices[i]-offer
+   console.log(prices[i])
 
-
-// console.log(prices)
+}
