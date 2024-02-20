@@ -117,5 +117,5 @@ let prices=[100,200,300,400,500]
 //      console.log(offer)
 //      prices[i]=prices[i]-offer  
 
-}
-console.log(prices)
+
+// console.log(prices)
